@@ -1,0 +1,4 @@
+E:/Bittiger/WebCrawler
+2/rawQuery.txt
+E:/Bittiger/WebCrawler
+2/ads.txt
