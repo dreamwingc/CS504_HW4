@@ -34,7 +34,7 @@ public class IndexBuilderMain {
         String mysql_host = "127.0.0.1:3306";
         String mysql_db = "searchads";
         String mysql_user = "root";
-        String mysql_pass = "www163com";
+        String mysql_pass = "yourpassword";
 
         AdsEngine adsEngine = new AdsEngine(budgetDataFilePath,memcachedServer,memcachedPortal,mysql_host,mysql_db,mysql_user,mysql_pass);
         final IndexBuilder indexBuilder = new IndexBuilder(memcachedServer, memcachedPortal, mysql_host, mysql_db, mysql_user, mysql_pass);
